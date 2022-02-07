@@ -1,0 +1,157 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+   color: #201b2d;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+   font-family: Ubuntu;
+   font-weight: 800;
+}
+
+.container {
+   width: 1170px;
+   margin: 0 auto;
+}
+
+.header {
+   background: #4ebefe;
+   padding-top: 45px;
+   color: #fff;
+}
+
+.wrapper {
+   display: flex;
+}
+
+.dream {
+   margin-top: 150px;
+}
+.title {
+   line-height: 1.5;
+   font-size: 30px;
+   font-family: Ubuntu;
+   font-weight: bold;
+   letter-spacing: 1.5px;
+}
+.title span {
+   font-size: 65px;
+   font-weight: bold;
+}
+.text {
+   line-height: 1.5;
+   margin-top: 50px;
+   font-size: 18px;
+   letter-spacing: 2px;
+   margin-bottom: 45px;
+   font-family: OpenSans;
+}
+
+a {
+   text-decoration: none;
+   background: ffd429;
+}
+
+.btn {
+   border-radius: 100px;
+   color: black;
+   background: #ffd429;
+   font-family: Montserrat;
+   font-size: 16px;
+   font-weight: 600;
+   display: block;
+   width: 220px;
+   padding: 20px;
+   text-align: center;
+   transition: all 0.5s ease 0s ;
+}
+
+.btn:hover {
+   color: #d9860e;
+}
+
+.flyup {
+   margin-top: 75px;
+}
+
+.whotnext{
+   padding: 100px 0;
+}
+
+.section__title {
+   font-size: 30px;
+   font-weight: 800;
+   text-align: center;
+   letter-spacing: 1px;
+   margin-bottom: 80px;
+}
+
+.times {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+.time {
+   margin-top: 80px;
+   width: 300px;
+   text-align: center;
+}
+
+.time-title {
+   margin-top: 35px;
+   font-weight: bold;
+   font-size: 18px;
+   letter-spacing: 1px;
+}
+
+.time-text {
+   margin-top: 25px;
+   font-size: 16px;
+   line-height: 25px;
+   margin-bottom: 125px;
+   font-family: Ubuntu;
+   font-weight: regular;
+}
+
+.mail {
+   padding: 100px 0;
+   background: #ecf3f8;
+}
+
+.form {
+   display: block;
+}
+
+.form input {
+   width: 350px;
+   height: 45px;
+   margin: 0 auto;
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+.mail__btn {
+   margin: 0 auto;
+}
+
+.footer {
+   background: #164d7a;
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+   color: #fff;
+   padding: 65px 0;
+   font-family: OpenSans;
+   font-weight: regular;
+}
